@@ -208,7 +208,7 @@ background-color: #0918ba;
    box-shadow: 0px 0px 10px rgba(1, 3, 97, 0.121);
 }
 
-i{
+#users{
   color: #0b1ae9;
   font-size: 25px;
 }
@@ -408,15 +408,29 @@ margin-top: 20px;
 .sec3card1{
   background-color: coral;
   width: 700px;
+  align-items: center;
 }
 
 .cardi{
-  background-color: #242859;
+  background-color: #0b1ae9;
   width: 70px;
   height: 70px;
   border-radius: 20px;
+  text-align: center;
+   align-items: center;
+   display: flex;
+   justify-content: center;
+   gap: 10px;
+   transition: 0.2s;
+   box-shadow: 0px 0px 10px rgba(1, 3, 97, 0.121);
+  
 }
 
 .comment{
   text-align: center;
+}
+
+#roc{
+  color: white;
+  font-size: 30px;
 }
